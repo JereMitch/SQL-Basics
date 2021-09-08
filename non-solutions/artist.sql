@@ -1,9 +1,25 @@
---Number 1--
+insert into artist (
+	name
+)
+values (
+	'NF'
+), (
+	'Witt Lowry'
+), (
+	'Logic'
+);
 
---Number 2--
+select * from artist
+order by name;
 
---Number 3--
+select * from artist
+order by name desc limit(10);
 
---Number 4--
+select * from artist
+order by name limit(5);
 
---Number 5--
+select * from artist
+where name like 'Black%';
+
+select * from artist
+where name like '%Black%';
